@@ -64,7 +64,6 @@ public class User  implements Serializable {
 		this.email = email;
 	}
 
-
 	public String getPhone() {
 		return phone;
 	}
@@ -99,16 +98,5 @@ public class User  implements Serializable {
 		User other = (User) obj;
 		return Objects.equals(id, other.id);
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
-	
 
 }
