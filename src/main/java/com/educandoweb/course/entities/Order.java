@@ -6,7 +6,7 @@ import java.util.HashSet;
 import java.util.Objects;
 import java.util.Set;
 
-import com.educandoweb.course.entities.enums.OrderItem;
+
 import com.educandoweb.course.entities.enums.OrderStatus;
 
 import jakarta.persistence.Entity;

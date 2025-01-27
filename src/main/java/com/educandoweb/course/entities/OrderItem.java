@@ -1,10 +1,8 @@
-package com.educandoweb.course.entities.enums;
+package com.educandoweb.course.entities;
 
 import java.io.Serializable;
 import java.util.Objects;
 
-import com.educandoweb.course.entities.Order;
-import com.educandoweb.course.entities.Product;
 import com.educandoweb.course.entities.pk.OrderItemPK;
 import com.fasterxml.jackson.annotation.JsonIgnore;
 
