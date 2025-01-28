@@ -19,7 +19,7 @@ import jakarta.persistence.Table;
 
 @Entity
 @Table(name = "tb_product")
-public class Product implements Serializable {
+public class Product  implements Serializable {
 	private static final long serialVersionUID = 1L;
 
 	@Id
@@ -36,6 +36,7 @@ public class Product implements Serializable {
 
 	@OneToMany(mappedBy = "id.product")
 	private Set<OrderItem> items = new HashSet<>();
+	
 	
 	public Product() {
 	}
